@@ -1,10 +1,11 @@
-import timm
-import torch
+import gdown, os
+from pathlib import Path
 
-model_name = "vit_base_patch16_384"
-model_official = timm.create_model(model_name, pretrained=True)
-model_official.eval()
-print(type(model_official))
+# 1. Google Drive file URL
+url = "https://drive.google.com/uc?id=13TxxDZvai-5xQEN-D7d1ElMm_q5ZibDv"  
+output_file = "vit_ft_quick_draw.pth"
+weight_folder = Path('weight')
+weight_folder.mkdir(exist_ok=True)
+gdown.download(url, os.path.join(weight_folder, output_file), quiet=False)
 
-# Save the model weights
-torch.save(model_official.state_dict(), "weight/model.pth")
+print(f"Downloaded '{output_file}' successfully.")

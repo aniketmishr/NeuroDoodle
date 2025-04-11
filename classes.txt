@@ -1,0 +1,40 @@
+airplane
+apple
+axe
+banana
+bicycle
+bird
+birthday cake
+book
+bowtie
+bucket
+bus
+butterfly
+camera
+candle
+canoe
+car
+cat
+chair
+clock
+cloud
+computer
+cup
+diamond
+dog
+door
+envelope
+eyeglasses
+face
+fish
+hat
+house
+ice cream
+ladder
+light bulb
+lollipop
+pizza
+star
+television
+tornado
+tree

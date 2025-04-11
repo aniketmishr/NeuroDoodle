@@ -1,7 +1,6 @@
 import torch
 import torch.nn as nn
 
-
 class PatchEmbed(nn.Module):
     """Split image into patches and then embed them.
 
