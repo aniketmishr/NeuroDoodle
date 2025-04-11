@@ -4,17 +4,13 @@
 
 ---
 
-## Live Demo
-
-🔗 [Web App](https://your-app-link.com)  
-
 ![Demo Image](asset/demo_image.png)
 
 ---
 
 ## About the AI
 
-The AI model behind NeuroDoodle is a **Vision Transformer (ViT)** that was fine-tuned on a subset of the [Quick, Draw! Dataset](https://github.com/googlecreativelab/quickdraw-dataset). The dataset contains millions of user-drawn doodles across various categories. The model has been trained to recognize common doodle patterns with high accuracy.
+The AI model behind NeuroDoodle is a **Vision Transformer (ViT)** that was fine-tuned on a subset of the [Quick, Draw! Dataset](https://github.com/emizzz/Quick-Draw-Subset).
 
 ---
 
